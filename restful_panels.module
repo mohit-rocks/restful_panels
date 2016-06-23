@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * This is module file for restful_panles module.
+ */
+
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function restful_panels_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'restful' || $owner == 'panels') {
+    return 'plugins/' . $plugin_type;
+  }
+
+  return NULL;
+}

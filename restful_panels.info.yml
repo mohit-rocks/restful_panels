@@ -1,0 +1,9 @@
+name: RESTful Panels
+type: module
+description: 'Expose Panels Displays via RESTful interfaces.'
+package: Web services
+core: '8.x'
+dependencies:
+  - 'ctools'
+  - 'restful'
+  - 'panels'
